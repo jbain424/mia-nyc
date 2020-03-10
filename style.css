@@ -12,6 +12,7 @@ body {
   background-size: 100%;
   margin: 0;
   font-family: "Sen", sans-serif;
+  color: white;
 }
 
 
@@ -93,6 +94,42 @@ h2 {
     font-size: 30px;
 
 }
+
+/* CONTACT */
+
+section .contact {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 60px 80px;
+    
+}
+
+section .contact h3 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+section .contact-text {
+    padding-top: 10px;
+}
+
+section input {
+    width: 250px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    margin-right: 15px;
+}
+
+section button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    
+
+}
+
 
 /* SHOP */
 
