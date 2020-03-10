@@ -1,13 +1,10 @@
     /* fonts
 
     font-family: 'Lora', serif;
+    font-family: 'Sen', sans-serif;
+    font-family: 'Mrs Saint Delafield', cursive;*/
 
-    font-family: 'Sen', sans-serif; */
-
-
-
-
-
+html,
 body {
   background-image: url("images/main-background-1.jpg");
   background-color: black;
@@ -25,6 +22,8 @@ body {
   padding: 30px 50px;
   display: grid;
   grid-template-columns: 30% 70%;
+  position: static;
+  margin: 0;
 }
 
 .nav-links {
@@ -94,6 +93,58 @@ h2 {
     font-size: 30px;
 
 }
+
+/* SHOP */
+
+section .shop {
+    background: black;
+    color: whitesmoke;
+    padding: 45px 60px;
+}
+
+section .shop .shop-title {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 200px;
+    margin: 0;
+    text-align: center;
+
+}
+
+section .shop .shop-subtext {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+section .shop .shop-title a{
+    text-decoration: none;
+    color: white;
+}
+
+section
+.shop
+.shop-title
+a:hover, 
+a:focus{
+    text-decoration: none;
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE RESPONSIVE */
 
